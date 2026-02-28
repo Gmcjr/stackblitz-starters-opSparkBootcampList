@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  font-family: Cochin;
+  color: rgb(237, 212, 178);
+  background-color: #473c5e;
 }
 
 nav {
@@ -40,7 +40,35 @@ main {
   padding: 1rem;
 }
 
+main a {
+  color: rgb(237, 212, 178);
+}
+
+main a:hover {
+  color: #f0c040;
+}
+
+main a:active {
+  color: #ff8c00;
+}
+
+main a:visited {
+  color: #b89fd4;
+}
+
+.description {
+ text-align: center;
+}
+
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
+}
+
+
+body {
+  div {
+    image-orientation: center;
+  }
 }
